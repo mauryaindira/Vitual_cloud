@@ -3,7 +3,9 @@
 Step 1:  Create an application(cloud_assign1.py) and running the file on web url.
 
 Step 2: create a Requirement file (req.text)
+
         flask
+
 Step 3: Create a Dockerfile
         FROM python:3.6
         WORKDIR /app
@@ -25,4 +27,8 @@ Step 3: Create a Dockerfile
 Step 4: sudo docker run -p 80:80 flask_app:latest
 
         This command will run the image on port 80.
+
+Author : Indira Maurya
+
+Roll Number:  M21AIE228
     
